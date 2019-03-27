@@ -30,3 +30,11 @@ With vscode-leetcode, you can fuck leetcode easily.
 - 13 - Roman To Integer
 
     如果我们从左向右进行比较，那么就要判断一个数字是加还是减，比较麻烦。那么我们就从右向左看，因为减法只存在于一位，所以易证从右向左的正确性。如果ab(a >= b)那么就是b + a 如果ab(a < b) 那么就是b - a。
+
+- 14 - Longest Common Prefix
+
+    依次遍历所有vector里面string的字符，每个循环都开一个数组存每个string的第几位是多少，使用at()来取数，这样如果越界，抓到了out_of_range就直接返回结果，每次只要和上一次的比一下就行了，只要不一样就直接返回结果。
+
+- 20 - Valid Parentheses
+
+    这一题考的就是能不能想到栈，看见一个左括号就push进去，看见一个与栈顶对应的右括号就pop出来，要是不对应就返回false就完事了。
