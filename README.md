@@ -38,3 +38,9 @@ With vscode-leetcode, you can fuck leetcode easily.
 - 20 - Valid Parentheses
 
     这一题考的就是能不能想到栈，看见一个左括号就push进去，看见一个与栈顶对应的右括号就pop出来，要是不对应就返回false就完事了。
+
+- 21 - Merge Two Sorted Lists
+
+    先决定头是谁，然后存一下这个头，然后就依次遍历就完事了。注意不等长的情况。
+
+    这一题我的做法有点慢。faster than 30%，什么鬼。用递归应该会好一点。
