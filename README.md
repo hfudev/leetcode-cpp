@@ -44,3 +44,7 @@ With vscode-leetcode, you can fuck leetcode easily.
     先决定头是谁，然后存一下这个头，然后就依次遍历就完事了。注意不等长的情况。
 
     这一题我的做法有点慢。faster than 30%，什么鬼。用递归应该会好一点。
+
+- 26 - Remove Duplicates From Sorted Array
+
+    由于不能另开数组，那么我们就只能设个标志位，依次用数组里的比一下，不一样就标志位进一然后赋值就完事了。
