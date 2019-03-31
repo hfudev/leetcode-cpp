@@ -48,3 +48,12 @@ With vscode-leetcode, you can fuck leetcode easily.
 - 26 - Remove Duplicates From Sorted Array
 
     由于不能另开数组，那么我们就只能设个标志位，依次用数组里的比一下，不一样就标志位进一然后赋值就完事了。
+
+- 27 - Remove Element
+
+    这一题和上一题一毛一样，设个标志位，自己做吧。
+
+- 28 - Implement strStr
+
+    这一题不用KMP这么经典的算法都可惜了。具体详解请参考[如何更好的理解和掌握 KMP 算法? - 海纳的回答 - 知乎](https://www.zhihu.com/question/21923021/answer/281346746)
+    不过我真的花了好久才写了个KMP啊，菜的一笔，继续努力啊。
