@@ -13,6 +13,8 @@ Leetcode Practice with C++
 
 With vscode-leetcode, you can fuck leetcode easily.
 
+还有各位discuss tab下面的大佬们，受益匪浅，希望能多多思考，多用别的角度考虑问题。
+
 # Easy
 
 - 1 - Two Sum
@@ -75,3 +77,15 @@ With vscode-leetcode, you can fuck leetcode easily.
     > 第六行读第五行，3 个 1，2 个 2，1 个 1，去掉所有个字，所以第六行就是 312211。  
     > 然后题目要求输入 1 - 30 的任意行数，输出该行是啥。  
     > -- By hangxiaotian233 in the discuss tab. (改了俩错别字)
+
+- 53 - Maximum Subarray
+
+    维护一个数用来存到目前为止的max sum，然后和一个current sum每次比一下就完事了。
+
+- 58 - Length of Last Word
+
+    由于是last word，所以重要的是从右往左数，遍历一下就完事了。
+
+- 66 - Plus One
+
+    注意进位，注意第一位如果要进位的话应该插入，其他没啥要注意的。
