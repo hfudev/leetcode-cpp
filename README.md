@@ -98,3 +98,19 @@ With vscode-leetcode, you can fuck leetcode easily.
 
     哇这一题我看了描述以后第一个就想到的是偷鸡法——遍历pow就完事了。不过好像有点慢。。。  
     我们仔细想一想可以用二分然后比，这样起码可以少遍历很多吧。注意不要pow(x, 2)否则有可能越界，比的时候用mid > x / mid这样可以直接避免越界的问题。
+
+- 70 - Climbing Stairs
+
+    这一题自顶向下分治，直接用数组来分治可以减少时间开销。
+
+- 83 - Remove Dulicates from Sorted List
+  
+    这一题就是普通的链表题目，注意NULL值的设置和判断。
+
+- 88 - Merge Sorted Array
+
+    由于题目不允许另开数组，所以我们只能从大向小，即为从右向左比，不然就要依次挪一位了傻得很。。
+
+- 100 - Same Tree
+
+    递归就完事了。
