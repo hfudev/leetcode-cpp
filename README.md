@@ -114,3 +114,24 @@ With vscode-leetcode, you can fuck leetcode easily.
 - 100 - Same Tree
 
     递归就完事了。
+
+- 101 - Symmetric Tree
+
+    和100题一毛一样。
+
+- 104 - Maximum Depth of Binary Tree
+
+    和100题一毛一样。
+
+- 107 - Binary Tree Level Order Traversal II
+
+    由于要递归到每一层，还要确定层数，所以肯定要先求出最大层数然后把当前层当做一个参数传入子函数的。
+    使用到了104题中的函数。
+
+- 108 - Convert Sorted Array to Binary Search Tree
+
+    这个就是分治法啦。写就完事了。
+
+- 110 - Balanced Binary Tree
+
+    为了判断一个树是否为平衡树，我们使用深度优先肯定是能够最快抛出false的，这里我们为了获得子树的深度，所以传参的时候要传入引用来记录子树的深度。
