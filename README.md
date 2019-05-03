@@ -1,12 +1,12 @@
 # leetcode-cpp
 Leetcode Practice with C++
 
-# Directory
+## Directory
 [Thanks to](#thanks-to)
 
 [Easy](#easy)
 
-# Thanks to
+## Thanks to
 [vscode-leetcode](https://github.com/jdneo/vscode-leetcode)
 
 用了这玩意儿贼爽贼带感, 刷题就像是飞的感觉。
@@ -15,7 +15,7 @@ With vscode-leetcode, you can fuck leetcode easily.
 
 还有各位discuss tab下面的大佬们，受益匪浅，希望能多多思考，多用别的角度考虑问题。
 
-# Easy
+## Easy
 
 - 1 - Two Sum
     
@@ -135,3 +135,13 @@ With vscode-leetcode, you can fuck leetcode easily.
 - 110 - Balanced Binary Tree
 
     为了判断一个树是否为平衡树，我们使用深度优先肯定是能够最快抛出false的，这里我们为了获得子树的深度，所以传参的时候要传入引用来记录子树的深度。
+
+## Medium
+
+- 2 - Add Two Numbers
+
+    链表相加，依次相加就完事了。进位进的是下一个，所以没啥好想的。
+
+- 3 - Longest Substring Without Repeating Characters
+
+    这一题就是用哈希表存了一遍下标，要是声明过了就可以减一减得出长度了。之所以声明dict长度为256是为了和char的类型相匹配，其实26就够了但是leetcode会warning。我这个写法是抄`lightmark`的，我觉得这个人写的真的有点精妙。
